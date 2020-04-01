@@ -1,0 +1,123 @@
+.editors-picks-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+
+.editors-picks-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 15px;
+}
+
+.main-item-title a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-item-title a:hover {
+    color: blueviolet;
+}
+
+.main-item-description, .main-item-title {
+    margin-top: 5px;
+}
+
+.main-item-description a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(97, 93, 93);
+}
+
+.main-item-description a:hover {
+    color: blueviolet;
+}
+
+.picks-main-img {
+    position: relative;
+}
+
+.picks-main-img h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 20px ;
+}
+
+.picks-main-img h2 span a {
+    color: #fff;
+}
+
+.picks-main-img h2 span a:hover {
+    color: darkgray;
+}
+
+.picks-main-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    background-color: rgba(0,0,0,0.2);
+
+}
+
+.editors-picks-sidebar {
+    position: sticky;
+    top: 100px;
+    height: 520px;
+}
+
+.editors-picks-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 30px 0px 15px 0px ;
+}
+
+.editors-picks-sidebar-title {
+    background-color: blueviolet;
+    padding: 10px 20px;
+}
+
+.editors-picks-sidebar-title  {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.editors-picks-sidebar-item {
+    padding: 30px 20px ;
+    display: flex;
+    
+}
+
+.light {
+    background-color: rgb(34, 31, 31);
+}
+
+.dark {
+    background-color: rgb(29, 25, 25);
+}
+
+.editors-picks-sidebar-item a {
+    color: #fff
+}
+
+.editors-picks-sidebar-item a:hover {
+    color: blueviolet;
+}
+
+.sider-bar-item-number {
+    font-size: 24px;
+    margin-right: 30px;
+    background-color:  blueviolet;
+    padding: 15px 23px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}

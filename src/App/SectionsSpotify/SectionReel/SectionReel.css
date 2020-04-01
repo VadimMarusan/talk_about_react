@@ -1,0 +1,76 @@
+.section-reel {
+    background-color: rgb(228, 224, 175);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-reel-container {
+    padding: 30px 0px;
+}
+
+.section-reel-tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.reel-tittle-name h2 a {
+    color: rgba(0,0,0,0.7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reel-tittle-name h2 a:hover {
+    color: rgb(128, 122, 45);
+}
+
+.reel-tittle-name span {
+   padding-right: 30px;
+   color: rgba(0,0,0,0.5);
+}
+
+.reel-button input {
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.5);;
+    background-color: rgba(0,0,0,0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.reel-button input:hover {
+    background-color: rgb(241, 236, 175);
+    cursor: pointer;
+    border: 1px solid rgb(128, 122, 45);
+}
+
+.section-reel-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 15px;
+}
+
+.reel-item {
+    background-color:#fff;
+    border: 1px solid rgb(131, 127, 67) ;
+}
+
+.img-description {
+    padding: 10px;
+}
+
+.img-description a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.img-description a:hover {
+    color: rgb(128, 122, 45);
+}
